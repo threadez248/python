@@ -7,8 +7,17 @@
 4.Python Philosophy
 https://www.python.org/dev/peps/pep-0020/
 
-5.Clean Code 
+5.Clean Function and Clean Code 
 
 6.How does Python gets executed?
 
-7.GIL
+7. Procedural, Functional, Object-Oriented
+
+8.Code flow: Shebang, Modules, Variables, Functions
+
+9. Variables, Variable type, Operators
+
+10. Primitive Data types and Print function. 
+
+11. Develop a consistent style.
+https://www.python.org/dev/peps/pep-0008/
