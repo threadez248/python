@@ -131,9 +131,9 @@ print(bb(0))
 # else:
 #     print("Negative number")
     
-# #Predict
-# for x in range(0,6):
-#   print(x)
+#Predict
+for x in range(0,6):
+  print(x)
   
 # #Predict
 # # Program to find the sum of all numbers stored in a list
