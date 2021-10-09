@@ -1,4 +1,11 @@
 1.Why to learn Python
+Most popular
+easily readable
+Community support 
+
+not the best when it comes to performace
+mobile 
+No concurrency in Python 
 
 2.Course Scope
 
