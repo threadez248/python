@@ -28,3 +28,19 @@ https://www.python.org/dev/peps/pep-0020/
 
 11. Develop a consistent style.
 https://www.python.org/dev/peps/pep-0008/
+
+Template:
+
+import pakages 
+
+Declare variables 
+
+functions, classes
+
+call functions 
+
+
+compiled or interpreted launguage 
+
+
+

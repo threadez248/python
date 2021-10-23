@@ -43,14 +43,22 @@
 # num2 = input(("Enter the number for num2 "))
 
 # print(num2)
-zipcode = "7996767"
 
-if len(zipcode) == 5:
- print ("correct zipcode")
-else:
- print ("incorrect zipcode")
+# zipcode = "7996767"
+
+# if len(zipcode) == 5:
+#  print ("correct zipcode")
+# else:
+#  print ("incorrect zipcode")
 
 
 
+# print("Hellow\rWorld")
+
+
+
+
+
+    
 
 

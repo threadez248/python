@@ -1,80 +1,108 @@
-##Files>Module>Package>Library>Framework>Application
+# ##Python
+# ##
+
+
+
+# ##Files>Module>Package>Library>Framework>Application
 
 
 
 
-# ##Data types
-# ## Primitive: Numbers, Boolean, string
+# # ##Data types
+# # ## Primitive: Numbers, Boolean, string
+# # # ## Composite: Lists, Tuples, Set, dict
+# ## mutable vs immutable
 
-##Printing Strings
+
+# ##Printing Strings
 
 corpName = "ItMunk"
 stateName = "Virginia"
 
-print("Welcome to ", corpName)
+# print("Welcome to ", corpName)
 
-print(f"Welcome to {corpName}")
+# print(f"Welcome to {corpName}")
 
-print("Welcome to %s, %s" %(corpName, stateName))
+# print("Welcome to %s, %s" %(corpName, stateName))
+
+
+
+
+
+
+
 
 ##String Methods
-corpName = "ItMunk"
+# corpName = "ItMunk"
 
-print(corpName.upper())
+# print(corpName.upper())
 
-print(corpName.split())
+# print(corpName.split())
 
-print(corpName.count('It'))
-
-##How to find the type of data
-corpName = "ItMunk"
-print(type(corpName))
-
-corpZip = "20105"
-print(type(corpZip))
-
-corpZip = int(corpZip)
-print(type(corpZip))
-
-##Numbers: int and float
-## Arthimetic Operators +, - , *, %, / 
-## logical >, <, >=, <=, ==
-##if, elseif, else statements
-
-##Zipcode validation 
-corpZip = input("Enter zip code \n" )
-if (len(corpZip) == 5) :
-    print("Zipcode valid")
-else:
-    print("Zipcode invalid")
-##Type casting 
-corpZip = input("Enter zip code \n" )
-corpZip = int(corpZip)
-print(isinstance(corpZip, int))
-## Passing a vaule to a variable
-## eliminating the duplicates by converting from list to set 
-## printing 
-
-# 2
-
-# # ## Composite: Lists, Tuples, Set, dict
+# print(corpName.count('It'))
 
 
 
+# ##How to find the type of data
+# corpName = "ItMunk"
+# print(type(corpName))
 
-# # ##Variables
+# num1 = 78
+# num2 = int(input("Enter a number \n: "))
 
-# # num1 = 45
-# # # num2 = 40
-# # num3 = num1 + num2
-# # print(num1 + num2)
+# print(type(num2))
 
-# ##How to pass values to Variables
-# ## 1.Initiate the variable with a value
-# ## 2.Declare the variable by declaring in bash
-# ## 3.Assing the value by user input 
+# num3 = num1 + num2 
+# print(num3)
 
-# ##Variable.py
+# corpZip = "20105"
+# print(type(corpZip))
+
+# corpZip = int(corpZip)
+# print(type(corpZip))
+
+# ##Numbers: int and float
+# ## Arthimetic Operators +, - , *, %, / 
+# ## logical >, <, >=, <=, ==
+# ##if, elseif, else statements
+
+Zipcode validation 
+# corpZip = input("Enter zip code \n" )
+# if (len(corpZip) == 5) :
+#     print("Zipcode valid")
+# elif (len(corpZip) == 6):
+#     print("Zipcode is an Indi's Zipcode")
+# else:
+#     print("Zipcode invalid")
+
+# ##Type casting 
+# corpZip = input("Enter zip code \n" )
+# corpZip = int(corpZip)
+# print(isinstance(corpZip, int))
+# ## Passing a vaule to a variable
+# ## eliminating the duplicates by converting from list to set 
+# ## printing 
+
+# # 2
+
+# # # ## Composite: Lists, Tuples, Set, dict
+
+
+
+
+# # # ##Variables
+
+# num1 = 45
+# # num2 = 40
+# num3 = num1 + num2
+# print(num1 + num2)
+
+# # ##How to pass values to Variables
+# # ## 1.Initiate the variable with a value
+# # ## 2.Declare the variable by declaring in bash
+# # ## 3.Assing the value by user input 
+
+# # ##Variable.py
 # import os
 # ##assign a value for the variable
 
