@@ -35,13 +35,13 @@ class User:
         self.withdraw(amount)
 
 
-Kumar = User("Kumar", "id01")
-print(Kumar.account_balance)
-Roa = User("Roa", "id02")
-Kumar.deposit(1000)
+Kumar = User("Kumar", "id01")  ##Creating the Object Kumar
+print(Kumar.account_balance)   ##Printing the default account_balance =0
+Roa = User("Roa", "id02")      ##Creating the Object Roa
+Kumar.deposit(1000) 
 Roa.deposit(1000)
 
-Kumar.transfer_amount(Roa, 100)
+Kumar.transfer_amount(Roa, 100) ##Attributes of Kumar Object are refferred by self
 
 
 print(Kumar.account_balance)
