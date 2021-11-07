@@ -19,11 +19,10 @@ class User:
         self.name = name
         self.id = id
         self.account_balance = 0
-    
-        
+             
     def deposit(self, amount):
         self.account_balance += amount
-        return self.account_balance
+        return self
 
     def withdraw(self, amount):
         self.account_balance -= amount
@@ -38,11 +37,11 @@ class User:
 Kumar = User("Kumar", "id01")  ##Creating the Object Kumar
 print(Kumar.account_balance)   ##Printing the default account_balance =0
 Roa = User("Roa", "id02")      ##Creating the Object Roa
-Kumar.deposit(1000) 
+ 
 Roa.deposit(1000)
-
-Kumar.transfer_amount(Roa, 100) ##Attributes of Kumar Object are refferred by self
-
+Kumar.deposit(1000).deposit(1000).withdraw(200)
+# Kumar.transfer_amount(Roa, 100) ##Attributes of Kumar Object are refferred by self
+User.transfer_amount(Kumar, Roa, 400)
 
 print(Kumar.account_balance)
 print(Roa.account_balance)
